@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+    box-shadow: 2px -2px 14px 0px #e2dcdc;
+}
+.navbar img{
+    margin-left: 25px;
+    height: inherit;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    margin-right: 20px;
+
+}
+.btns button{
+    height: 5vh;
+    width: 180px;
+    padding: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.free-trial{
+    background-color: rgb(20 48 73);;
+}
+.navbar-login{
+    background-color: orange;
+}
+@media (max-width: 1000px){
+    .btns{
+        display: none;
+    }
+}
